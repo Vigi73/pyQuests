@@ -1,0 +1,10 @@
+pyrcc5 res.qrc -o res_rc.py
+
+pyinstaller -F -w -i "l.ico" --add-data "res_rc.py;." Quests.py
+
+
+http://sufd.s1700w03.ufk17.roskazna.local:28081/sso-proxy-login/login_no_sn_new.jsp
+
+
+Классический квест (Рыбхоз: Карась золотой 1,803 кг ).
+Классический квест (Побережье Камчатки: Тихоокеанская навага 1,639 кг ).

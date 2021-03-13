@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>img/sum_icon_151075.ico</file>
+    <file>img/88_85289.ico</file>
+    <file>img/42466camping_99131.ico</file>
+    <file>img/2998113-animal-garden-gardening-insect-invertebrate-rain-worm-worm_99853.ico</file>
+    <file>img/3687831-adventure-journey-location-map_108802 (1).ico</file>
+    <file>img/3687831-adventure-journey-location-map_108802.ico</file>
+    <file>img/arrow-down-a_icon-icons.com_50480.ico</file>
+    <file>img/arrow-up-a_icon-icons.com_50460.ico</file>
+    <file>img/fish_header.ico</file>
+    <file>img/Fish_Movie_35099.ico</file>
+    <file>img/logo.png</file>
+    <file>img/location_map_pin_mark_icon_148684.ico</file>
+  </qresource>
+</RCC>

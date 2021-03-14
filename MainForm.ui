@@ -263,7 +263,7 @@
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
         </property>
         <property name="text">
@@ -328,7 +328,7 @@ background-color: rgb(159, 161, 119);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(36, 72, 0);
-color: #fff;
+color: rgb(221, 221, 221);
 text-align: center
 </string>
         </property>
@@ -390,7 +390,7 @@ background-color: rgb(159, 161, 119);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
         </property>
         <property name="text">
@@ -519,7 +519,7 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(36, 72, 0);
-color: #fff;
+color: rgb(221, 221, 221);
 selection-color: rgb(255, 255, 127);
 gridline-color: rgb(255, 255, 127);
 selection-background-color: rgb(255, 255, 127);</string>
@@ -608,7 +608,7 @@ selection-background-color: rgb(255, 255, 127);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
         </property>
         <property name="text">
@@ -650,7 +650,7 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
         </property>
         <property name="text">
@@ -882,7 +882,8 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
           </rect>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(36, 72, 0);</string>
+          <string notr="true">background-color: rgb(36, 72, 0);
+color: rgb(221, 221, 221);</string>
          </property>
          <property name="markdown">
           <string>Разыскиваются редкие виды рыб (Мутанты):
@@ -939,7 +940,7 @@ background-color: rgb(159, 161, 119);</string>
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
@@ -957,10 +958,8 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;
-
-
 </string>
          </property>
          <property name="text">
@@ -978,7 +977,7 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">
@@ -996,7 +995,7 @@ font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="styleSheet">
           <string notr="true">background-color: rgb(124, 124, 93);
-color: rgb(255, 255, 255);
+color: #000;
 font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
          </property>
          <property name="text">

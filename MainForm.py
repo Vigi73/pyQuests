@@ -140,7 +140,7 @@ class Ui_MainWindow(object):
         self.btnTask = QtWidgets.QPushButton(self.tab)
         self.btnTask.setGeometry(QtCore.QRect(644, 50, 121, 23))
         self.btnTask.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.btnTask.setObjectName("btnTask")
         self.doubleSpinBox = QtWidgets.QDoubleSpinBox(self.tab)
@@ -167,7 +167,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         self.textEdit.setFont(font)
         self.textEdit.setStyleSheet("background-color: rgb(36, 72, 0);\n"
-"color: #fff;\n"
+"color: rgb(221, 221, 221);\n"
 "text-align: center\n"
 "")
         self.textEdit.setAutoFormatting(QtWidgets.QTextEdit.AutoAll)
@@ -192,7 +192,7 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         self.btnSearch.setFont(font)
         self.btnSearch.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.btnSearch.setObjectName("btnSearch")
         self.table = QtWidgets.QTableWidget(self.tab)
@@ -235,7 +235,7 @@ class Ui_MainWindow(object):
         self.listWidget = QtWidgets.QListWidget(self.tab_2)
         self.listWidget.setGeometry(QtCore.QRect(10, 10, 161, 511))
         self.listWidget.setStyleSheet("background-color: rgb(36, 72, 0);\n"
-"color: #fff;\n"
+"color: rgb(221, 221, 221);\n"
 "selection-color: rgb(255, 255, 127);\n"
 "gridline-color: rgb(255, 255, 127);\n"
 "selection-background-color: rgb(255, 255, 127);")
@@ -268,7 +268,7 @@ class Ui_MainWindow(object):
         self.pushBait = QtWidgets.QPushButton(self.tab_2)
         self.pushBait.setGeometry(QtCore.QRect(10, 530, 161, 23))
         self.pushBait.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.pushBait.setObjectName("pushBait")
         self.lcd2 = QtWidgets.QLCDNumber(self.tab_2)
@@ -283,7 +283,7 @@ class Ui_MainWindow(object):
         self.pushSafari = QtWidgets.QPushButton(self.tab_3)
         self.pushSafari.setGeometry(QtCore.QRect(10, 530, 751, 23))
         self.pushSafari.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.pushSafari.setObjectName("pushSafari")
         self.tableSafari = QtWidgets.QTableWidget(self.tab_3)
@@ -366,7 +366,8 @@ class Ui_MainWindow(object):
         self.tableMutants.setHorizontalHeaderItem(4, item)
         self.textTaskMutant = QtWidgets.QTextBrowser(self.groupBox)
         self.textTaskMutant.setGeometry(QtCore.QRect(0, 10, 781, 65))
-        self.textTaskMutant.setStyleSheet("background-color: rgb(36, 72, 0);")
+        self.textTaskMutant.setStyleSheet("background-color: rgb(36, 72, 0);\n"
+"color: rgb(221, 221, 221);")
         self.textTaskMutant.setObjectName("textTaskMutant")
         self.comboBox_3 = QtWidgets.QComboBox(self.groupBox)
         self.comboBox_3.setGeometry(QtCore.QRect(10, 80, 281, 22))
@@ -383,28 +384,26 @@ class Ui_MainWindow(object):
         self.pushSearchMutants = QtWidgets.QPushButton(self.groupBox)
         self.pushSearchMutants.setGeometry(QtCore.QRect(10, 500, 121, 23))
         self.pushSearchMutants.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.pushSearchMutants.setObjectName("pushSearchMutants")
         self.pushTaskMutant = QtWidgets.QPushButton(self.groupBox)
         self.pushTaskMutant.setGeometry(QtCore.QRect(559, 80, 211, 23))
         self.pushTaskMutant.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";\n"
-"\n"
-"\n"
 "")
         self.pushTaskMutant.setObjectName("pushTaskMutant")
         self.pushReset = QtWidgets.QPushButton(self.groupBox)
         self.pushReset.setGeometry(QtCore.QRect(256, 500, 111, 23))
         self.pushReset.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.pushReset.setObjectName("pushReset")
         self.pushSearchFish = QtWidgets.QPushButton(self.groupBox)
         self.pushSearchFish.setGeometry(QtCore.QRect(137, 500, 111, 23))
         self.pushSearchFish.setStyleSheet("background-color: rgb(124, 124, 93);\n"
-"color: rgb(255, 255, 255);\n"
+"color: #000;\n"
 "font: 8pt \"MS Shell Dlg 2\";")
         self.pushSearchFish.setObjectName("pushSearchFish")
         self.lcd4 = QtWidgets.QLCDNumber(self.groupBox)

@@ -27,17 +27,19 @@ class MyWindow(QtWidgets.QMainWindow):
         self.ui.table.horizontalHeader().setDefaultSectionSize(240)  # setting the column size
 
         # style for header grid -----------------------------------------------------------------------------
-        stylesheet = "::section{Background-color: rgb(36, 72, 0); color: #c6c663}"
-        self.ui.table.horizontalHeader().setStyleSheet(stylesheet)
-        self.ui.table.verticalHeader().setStyleSheet(stylesheet)
-        self.ui.table2.horizontalHeader().setStyleSheet(stylesheet)
-        self.ui.table2.verticalHeader().setStyleSheet(stylesheet)
-        self.ui.tableBait.horizontalHeader().setStyleSheet(stylesheet)
-        self.ui.tableBait.verticalHeader().setStyleSheet(stylesheet)
-        self.ui.tableSafari.horizontalHeader().setStyleSheet(stylesheet)
-        self.ui.tableSafari.verticalHeader().setStyleSheet(stylesheet)
-        self.ui.tableMutants.horizontalHeader().setStyleSheet(stylesheet)
-        self.ui.tableMutants.verticalHeader().setStyleSheet(stylesheet)
+        stylesheet = ":section{Background-color: rgb(36, 72, 0); color: #c6c663}"
+        stylesheet_v = ":section{Background-color:  #989872; color: #000}"
+
+        self.ui.table.horizontalHeader().setStyleSheet(stylesheet_v)
+        self.ui.table.verticalHeader().setStyleSheet(stylesheet_v)
+        self.ui.table2.horizontalHeader().setStyleSheet(stylesheet_v)
+        self.ui.table2.verticalHeader().setStyleSheet(stylesheet_v)
+        self.ui.tableBait.horizontalHeader().setStyleSheet(stylesheet_v)
+        self.ui.tableBait.verticalHeader().setStyleSheet(stylesheet_v)
+        self.ui.tableSafari.horizontalHeader().setStyleSheet(stylesheet_v)
+        self.ui.tableSafari.verticalHeader().setStyleSheet(stylesheet_v)
+        self.ui.tableMutants.horizontalHeader().setStyleSheet(stylesheet_v)
+        self.ui.tableMutants.verticalHeader().setStyleSheet(stylesheet_v)
         # -----------------------------------------------------------------------------------------------------
 
         # Event for classic
